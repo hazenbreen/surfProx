@@ -10,14 +10,14 @@ SurfProx will run as a website (locally at first) and will run using Surfline's 
 
 
 
-Links that were helpful:
-https://github.com/swrobel/meta-surf-forecast
-https://www.itonlinelearning.com/blog/how-do-html-css-and-javascript-work-together/
+Links that were helpful:\n
+https://github.com/swrobel/meta-surf-forecast \n
+https://www.itonlinelearning.com/blog/how-do-html-css-and-javascript-work-together/ \n
 https://elitedatascience.com/learn-machine-learning
 
 
 Things to research:
-node.js
-javascript
+node.js \n
+javascript \n
 Surlfine API
 
