@@ -4,10 +4,9 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 
-.img {
+.staticimg {
     background-image: url(Manhattan_beach_wave.jpg);
     background-attachment: fixed;
     display: inline-block;
@@ -17,27 +16,37 @@ body {
 
 /* Style the header */
 .header {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
+    color: white;
     font-size: 40px;
+}
+
+.subheader {
+    padding: 2px;
+    background-color: #31D643;
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
 
 /* Create three unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 10px;
-    height: 1000px; /* Should be removed. Only for demonstration */
+    height: 500px; /* Should be removed. Only for demonstration */
 }
 
 /* Left and right column */
 .column.side {
     width: 15%;
-    background-color: #bbbbbb;
+    background-color: #f1f1f1;
 }
 
 /* Middle column */
 .column.middle {
     background-color: #f1f1f1;
+    color: black;
     padding: 30px;
     font-size: 20px;
     width: 70%;
@@ -53,9 +62,10 @@ body {
 
 /* Style the footer */
 .footer {
-    background-color: #f1f1f1;
+    
     padding: 10px;
     text-align: center;
+    color: white;
     height: 100%;
     width: 100%;
 }
