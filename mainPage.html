@@ -4,29 +4,53 @@
   <head>
     <title>Surf Prox</title>
     <link rel="stylesheet" type="text/css" href="mystylesheet.css">
+    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&libraries=geometry&key=AIzaSyD_nXg3EBu-32zUn-rvzWrR93FvqMZ5Hbs"></script>
+    <script type="text/javascript" src="spotCalculator.js"></script>
+
+
   </head>
-  <body>
-  	<div class="staticimg">
-	  	<div class="header">
-	  		<h1>Surf Prox</h1>
-	  	</div>
-  	</div>
-  	<div class="subheader">
-  		<p>Find the best break for you</p>
-  	</div>
-	<div class="row">
-  		<div class="column side">
-  		</div>
+
+
+  <body >
+
+    <div class="staticimg">
+      <div class="header">
+        <h1>Surf Prox</h1>
+      </div>
+    </div>
+
+    <div class="subheader">
+      <p>Find the best break for you</p>
+    </div>
+
+    <div class="row">
+        <div class="column side">
+        </div>
 
 
 
 
-  		<div class="column middle">		
-  				<p>Ever wondered what beach has the best surf is in your local area?  Are you constantly going to your go-to break, only to see that it was firing just around the corner?  That's where Surf Prox can help!</p>
-	  			<p> You select a time and a distance, Surf Prox tells you where to go! </p>
+        <div class="column middle">  
 
-	  			
-  		</div>
+          
+            <p>Ever wondered what beach has the best surf is in your local area?  Are you constantly going to your go-to break, only to see that it was firing just around the corner?  That's where Surf Prox can help!</p>
+            <p> You select a time and a distance, Surf Prox tells you where to go! </p>
+
+            <div id="map">
+
+            </div>
+
+            <button id="findButton" class="button" onclick="onFindButtonClicked();">Find your break!</button>
+
+            
+
+            <script language="javascript">
+              initMap();
+            </script> 
+
+
+        </div>
 
 
 
@@ -37,15 +61,29 @@
 
 
 
-  		<div class="column side">
-  		</div>
-	</div>
+        <div class="column side">
+        </div>
+    </div>
 
-	<div class="staticimg">
-		<div class="footer">
-			<p>Made by Hazen Breen</p>
-		</div>
-	</div>
+  <!-- Old MBTA project code
+
+<script type="text/javascript" src="http://magicseaweed.com/api/aa7c27d863d5e5e6a592ad528479c91f/forecast/?spot_id=369&fields=localTimestamp,solidRating"></script>
+
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&libraries=geometry&key=AIzaSyAbU1FuQ7cEE-cBT9VzAucBj0ZNqogqF38"></script>
+        
+  <link rel="stylesheet" href="geolocation_map_style.css" />
+        
+  <script type="text/javascript" src="map_Construction.js"></script>
+  -->
+
+
+
+    <div class="staticimg">
+      <div class="footer">
+        <p>Made by Hazen Breen</p>
+      </div>
+    </div>
   </body>
 
 </html>
