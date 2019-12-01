@@ -14,7 +14,7 @@
 NOTES:
 
 Example API call:
-http://magicseaweed.com/api/aa7c27d863d5e5e6a592ad528479c91f/forecast/?spot_id=369&fields=localTimestamp,solidRating
+http://magicseaweed.com/api/<API KEY>/forecast/?spot_id=369&fields=localTimestamp,solidRating
 
 Main page location:
 file:///Users/Hazen/Documents/surfProxProject/surfProx/mainPage.html
